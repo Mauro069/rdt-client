@@ -1,0 +1,9 @@
+.input {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5;
+    outline: 2px solid transparent;
+    transition-duration: .3s;
+}
+
+.input:focus {
+    outline: 2px solid black;
+}
