@@ -1,7 +1,9 @@
+import { CompanyForm } from '@/components/Forms'
+
 export default function CompanyPage () {
   return (
-    <main className='flex-1'>
-      <h1>COMPANY</h1>
+    <main className='flex flex-1 items-center justify-center'>
+      <CompanyForm />
     </main>
   )
 }
