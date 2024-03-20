@@ -1,6 +1,4 @@
-import { Input } from '..'
-import { Button } from '../Button'
-import { CheckBox } from '../Checkbox'
+import { Input, Button, CheckBox } from '..'
 
 export const LoginForm = () => {
   return (

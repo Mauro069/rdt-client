@@ -1,7 +1,9 @@
+import { PostulantForm } from "@/components/Forms";
+
 export default function PostulantPage () {
     return (
-      <main className='flex-1'>
-        <h1>POSTULANT</h1>
+      <main className='flex flex-1 items-center justify-center'>
+        <PostulantForm />
       </main>
     )
   }
