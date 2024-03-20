@@ -1,22 +1,21 @@
 import { Input } from '..'
-import { Label } from '../Label'
 
 export const LoginForm = () => {
   return (
-    <form className='max-w-sm mx-auto'>
-      <div className='mb-5'>
-        <Label>Your email</Label>
-        <Input
-          type='email'
-          id='email'
-          placeholder='name@flowbite.com'
-          required
-        />
-      </div>
-      <div className='mb-5'>
-        <Label>Your password</Label>
-        <Input type='password' id='password' placeholder='*********' required />
-      </div>
+    <form className='border border-gray-200 px-6 py-8 rounded-md max-w-sm mx-auto flex flex-col gap-4 min-w-[400px]'>
+      <Input
+        label='Nombre de usuario'
+        type='text'
+        placeholder='juan'
+        required
+      />
+
+      <Input
+        label='Contraseña'
+        type='password'
+        placeholder='*********'
+        required
+      />
 
       <button
         type='submit'
