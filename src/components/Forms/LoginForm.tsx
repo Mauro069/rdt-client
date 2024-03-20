@@ -3,7 +3,7 @@ import { CheckBox } from '../Checkbox'
 
 export const LoginForm = () => {
   return (
-    <form className='border border-gray-200 px-6 py-8 rounded-md max-w-sm mx-auto flex flex-col gap-4 min-w-[400px]'>
+    <form className='w-[90vw] sm:w-full max-w-[400px] border border-gray-200 px-6 py-8 rounded-md flex flex-col gap-4'>
       <Input
         label='Nombre de usuario'
         type='text'
