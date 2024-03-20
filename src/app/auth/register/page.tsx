@@ -1,6 +1,6 @@
 export default function RegisterPage () {
   return (
-    <main>
+    <main className='flex-1'>
       <h1>REGISTER</h1>
     </main>
   )
