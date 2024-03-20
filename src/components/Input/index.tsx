@@ -6,13 +6,20 @@ interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   label?: string
 }
 
-export const Input = ({ className, label, ...inputProps }: InputProps) => {
+export const Input = ({
+  required,
+  className,
+  label,
+  ...inputProps
+}: InputProps) => {
   const inputStyles = `${styles.input} ${className ?? ''}`
 
   if (label) {
     return (
       <div className='w-full'>
-        <Label>{label}</Label>
+        <Label>
+          {label} {required && <b className='text-red-400'>*</b>}
+        </Label>
         <input className={inputStyles} {...inputProps} />
       </div>
     )
