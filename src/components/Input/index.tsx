@@ -11,7 +11,7 @@ export const Input = ({ className, label, ...inputProps }: InputProps) => {
 
   if (label) {
     return (
-      <div>
+      <div className='w-full'>
         <Label>{label}</Label>
         <input className={inputStyles} {...inputProps} />
       </div>
