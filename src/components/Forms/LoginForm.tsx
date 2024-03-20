@@ -1,4 +1,5 @@
 import { Input } from '..'
+import { CheckBox } from '../Checkbox'
 
 export const LoginForm = () => {
   return (
@@ -23,6 +24,8 @@ export const LoginForm = () => {
       >
         Iniciar Sesión
       </button>
+
+      <CheckBox value={false} name='persist' label='Recuerdame' />
     </form>
   )
 }
