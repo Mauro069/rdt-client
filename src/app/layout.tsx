@@ -4,7 +4,7 @@ import { Navbar } from '@/components'
 
 export const metadata: Metadata = {
   title: 'Red de trabajo',
-  description: 'completar descripción'
+  description: 'Web para encontrar trabajo o empleados'
 }
 
 export default function RootLayout ({
