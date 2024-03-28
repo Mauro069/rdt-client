@@ -1,0 +1,4 @@
+export const AUTH_ACTIONS = {
+  LOGIN_SUCCEED: "LOGIN_SUCCEED",
+  SIGN_OUT: "SIGN_OUT",
+};
